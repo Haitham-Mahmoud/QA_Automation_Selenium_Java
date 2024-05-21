@@ -6,7 +6,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-
+/*
+Question1: Login Automation: Write a script that navigates to a login page, enters username and password, and submits the form. Verify successful login by checking for a specific element or text on the next page.
+*/
 public class StaleElementExample {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");

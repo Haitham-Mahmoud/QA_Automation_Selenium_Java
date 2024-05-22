@@ -1,14 +1,13 @@
 # QA Selenium Tips
 This repository serves as an excellent resource for resolving any issues encountered with Selenium Java.
 
+- How to access the css selector using the nth elements?
 
-How to access the css selector using the nth elements?
+- How to handle StaleElementReferenceException?
 
-How to handle StaleElementReferenceException?
+- How to handle alerts in selenium webdriver?
 
-How to handle alerts in selenium webdriver?
-
-how to handle windows-based alerts/popups in selenium robot class "virtual keyboard"?
+- How to handle windows-based alerts/popups in selenium robot class "virtual keyboard"?
 
 Note: This Maven project includes a POM.XML file. Please check the dependencies before running.
 
@@ -25,6 +24,11 @@ All test scrips or codes under src/test/java/
 ## Listeners:
 There are primarily two types of listeners in Selenium:
 
-WebDriver Event Listeners: These listeners specifically focus on events triggered by the WebDriver itself. They provide methods to track various WebDriver actions, such as navigation, element interaction, and exceptions.
+- WebDriver Event Listeners: These listeners specifically focus on events triggered by the WebDriver itself. They provide methods to track various WebDriver actions, such as navigation, element interaction, and exceptions.
 
-TestNG Listeners:  If you're using TestNG as your test framework alongside Selenium, you can leverage TestNG listeners. These listeners offer hooks into various stages of the test execution process, including test suite start/finish, test method start/finish, and test success/failure.
+- TestNG Listeners:  If you're using TestNG as your test framework alongside Selenium, you can leverage TestNG listeners. These listeners offer hooks into various stages of the test execution process, including test suite start/finish, test method start/finish, and test success/failure.
+
+Listeners with examples: 
+- Capturing screenshots on test failure: Using WebDriver listeners, you can capture a screenshot whenever a test fails. This helps in visually identifying the state of the application at the time of failure.
+- Logging test events: Listeners can be used to create detailed logs throughout the test execution. This can include information like the test method being executed, any encountered exceptions, and custom messages.
+- Custom reporting: By implementing listeners, you can generate customized test reports that include additional data points or visual aids beyond the basic information provided by the testing framework.

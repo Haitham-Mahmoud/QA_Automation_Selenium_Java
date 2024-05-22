@@ -32,3 +32,16 @@ Listeners with examples:
 - Capturing screenshots on test failure: Using WebDriver listeners, you can capture a screenshot whenever a test fails. This helps in visually identifying the state of the application at the time of failure.
 - Logging test events: Listeners can be used to create detailed logs throughout the test execution. This can include information like the test method being executed, any encountered exceptions, and custom messages.
 - Custom reporting: By implementing listeners, you can generate customized test reports that include additional data points or visual aids beyond the basic information provided by the testing framework.
+
+Overriding:
+- Overriding occurs when a subclass (child class) redefines a method inherited from its parent class (superclass), Both methods have the same name, parameters, and return type.
+
+![image](https://github.com/Haitham-Mahmoud/QA_Automation_Selenium_Java/assets/37036064/82b315c3-f829-4425-8074-cbb12c8ded2c)
+
+
+Overloading:
+Overloading occurs when a class has multiple methods with the same name but different parameters (number, type, or order).
+
+![image](https://github.com/Haitham-Mahmoud/QA_Automation_Selenium_Java/assets/37036064/8f928b56-4ba0-49db-bea5-e2362cb5ec7d)
+
+

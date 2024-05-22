@@ -44,4 +44,7 @@ Overloading occurs when a class has multiple methods with the same name but diff
 
 ![image](https://github.com/Haitham-Mahmoud/QA_Automation_Selenium_Java/assets/37036064/8f928b56-4ba0-49db-bea5-e2362cb5ec7d)
 
+Key Differences:
+
+![image](https://github.com/Haitham-Mahmoud/QA_Automation_Selenium_Java/assets/37036064/1e32fffc-142f-47ba-bc36-eeeb901661c3)
 

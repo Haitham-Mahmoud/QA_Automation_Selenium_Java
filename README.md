@@ -4,9 +4,11 @@ This repository serves as an excellent resource for resolving any issues encount
 
 How to access the css selector using the nth elements?
 
+How to handle StaleElementReferenceException?
+
 How to handle alerts in selenium webdriver?
 
-How to handle StaleElementReferenceException?
+how to handle windows-based alerts/popups in selenium robot class "virtual keyboard"?
 
 Note: This Maven project includes a POM.XML file. Please check the dependencies before running.
 
@@ -19,7 +21,3 @@ All test scrips or codes under src/test/java/
 4. TimeoutException: This exception occurs when a WebDriver command takes longer than the specified or default timeout to complete. This can happen due to slow internet connections, overloaded servers, or complex page elements that take a long time to load.
 5. NoAlertPresentException: This exception is thrown when you try to switch focus to an alert using switchTo().alert() but there's no alert present on the page. This can happen if your code expects an alert to appear when it actually doesn't based on the webpage behavior.
 6. UnhandledAlertException: This exception occurs when an alert appears unexpectedly during test execution, and your code doesn't handle it using methods like alert.accept() or alert.dismiss(). This can lead to the test hanging or failing as the alert blocks further interaction.
-
-
-
-

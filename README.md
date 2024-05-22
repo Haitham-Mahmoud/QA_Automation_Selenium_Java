@@ -21,3 +21,10 @@ All test scrips or codes under src/test/java/
 4. TimeoutException: This exception occurs when a WebDriver command takes longer than the specified or default timeout to complete. This can happen due to slow internet connections, overloaded servers, or complex page elements that take a long time to load.
 5. NoAlertPresentException: This exception is thrown when you try to switch focus to an alert using switchTo().alert() but there's no alert present on the page. This can happen if your code expects an alert to appear when it actually doesn't based on the webpage behavior.
 6. UnhandledAlertException: This exception occurs when an alert appears unexpectedly during test execution, and your code doesn't handle it using methods like alert.accept() or alert.dismiss(). This can lead to the test hanging or failing as the alert blocks further interaction.
+
+## Listeners:
+There are primarily two types of listeners in Selenium:
+
+WebDriver Event Listeners: These listeners specifically focus on events triggered by the WebDriver itself. They provide methods to track various WebDriver actions, such as navigation, element interaction, and exceptions.
+
+TestNG Listeners:  If you're using TestNG as your test framework alongside Selenium, you can leverage TestNG listeners. These listeners offer hooks into various stages of the test execution process, including test suite start/finish, test method start/finish, and test success/failure.

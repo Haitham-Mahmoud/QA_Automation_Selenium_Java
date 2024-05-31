@@ -58,4 +58,15 @@ Eliminate code duplication: No need to repeat element identification code.
 
 ![POM](https://github.com/Haitham-Mahmoud/QA_Automation_Selenium_Java/assets/37036064/48cec586-9041-4864-8eee-4bfce5c292ca)
 
+Page Factory in Selenium Java is a class that simplifies and enhances the implementation of the Page Object Model (POM) design pattern. It provides functionalities to:
+
+Effortless Initialization:  PageFactory employs the @FindBy annotation to declare web elements within your page object classes. These annotations define how to locate the elements on the webpage. Page Factory's initElements method then automatically initializes these elements with references to their corresponding counterparts on the actual webpage during test execution.
+
+Improved Readability: By separating element declaration and initialization, Page Factory promotes cleaner code. Test scripts become more focused on interacting with the page objects and their methods, rather than the underlying element lookup logic.
+
+Potential Performance Benefits: While the impact might be minimal in smaller tests, Page Factory can improve performance by initializing page objects only once per test, instead of repeatedly finding elements in each test step.
+
+![image](https://github.com/Haitham-Mahmoud/QA_Automation_Selenium_Java/assets/37036064/b283a494-d496-4f8f-aa02-0227adfed2d0)
+
+
 

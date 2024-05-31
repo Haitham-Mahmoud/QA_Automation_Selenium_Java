@@ -55,6 +55,7 @@ Simplify test maintenance: Changes to UI elements are isolated in one place.
 Enhance code reusability: Page objects can be reused across different test cases.
 Eliminate code duplication: No need to repeat element identification code.
 
-![image](https://github.com/Haitham-Mahmoud/QA_Automation_Selenium_Java/assets/37036064/27cedeae-91ef-4d68-96ec-3e6ba46402fe)
+
+![POM](https://github.com/Haitham-Mahmoud/QA_Automation_Selenium_Java/assets/37036064/48cec586-9041-4864-8eee-4bfce5c292ca)
 
 

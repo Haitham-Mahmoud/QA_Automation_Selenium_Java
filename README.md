@@ -48,3 +48,12 @@ Key Differences:
 
 ![image](https://github.com/Haitham-Mahmoud/QA_Automation_Selenium_Java/assets/37036064/1e32fffc-142f-47ba-bc36-eeeb901661c3)
 
+Page Object Model (POM):
+Selenium's POM design pattern is essentially a centralized repository for storing all your web elements. It's gained significant popularity due to its ability to:
+
+Simplify test maintenance: Changes to UI elements are isolated in one place.
+Enhance code reusability: Page objects can be reused across different test cases.
+Eliminate code duplication: No need to repeat element identification code.
+
+![image](https://github.com/Haitham-Mahmoud/QA_Automation_Selenium_Java/assets/37036064/18db1dda-c868-4b71-ba46-a71fa2bbdf6d)
+
